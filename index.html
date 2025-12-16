@@ -6,7 +6,11 @@
 	<title>aunt lore: in progress</title>
     <link rel="stylesheet" href="style.css"/>
   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 	<header>
         <div class="container header">
@@ -14,9 +18,9 @@
                 <i class="fas fa-bars"></i>i>
             </div>
           <ul class="navigation">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="memories.html">Memories</a></li>
+            <li class="underline-on-hover"><a href="index.html">Home</a></li>
+            <li class="underline-on-hover"><a href="about.html">About</a></li>
+            <li class="underline-on-hover"><a href="memories.html">Memories</a></li>
           </ul>
         </div>
     </header>
@@ -24,10 +28,24 @@
   <!--main content starts-->
      <div class="home">
         <div home="home-info">
-            <img class="post-img" src="images/vermont.JPEG" alt="Vermont" height="600px" width = 800px>  
+            <img class="post-img" src="images/vermont.JPEG" alt="Vermont">  
+            <br/>
             <span>
                 yay! traveling is so important! step out of your comfort zone and go learn something!</span>
         </div>
     </div>
 </body>
+
+
+<style>
+.post-img {
+  width: 80vw; /* VW stands for viewport width */
+  height: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+}
+
+
+</style>
 </html>

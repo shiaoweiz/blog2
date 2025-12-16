@@ -1,8 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 *{
-    margin-bottom: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -14,19 +12,30 @@ body {
 .container {
   
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-.container.header {
+
+header{
+    background-color: white;
+    padding: 1rem 1rem;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: lowercase;
+
+}
+
+/* .container .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1rem;
     background-color: white;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 1000;
-}
+} */
+
 .menuToggle {
     display: none;
 }
@@ -34,17 +43,17 @@ a {
     text-decoration: none;
 }
 
-.header .navigation {
+header .navigation {
     list-style: none;
     display: flex;
 }
 
-.header .navigation li {
+header .navigation li {
     margin-left: 1rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 }
 
-.header .navigation li {
+header .navigation li {
     cursor: pointer;
 }
 
@@ -56,7 +65,7 @@ a {
 /*styling*/
 
 .main .col {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .post .post-img {
@@ -73,7 +82,7 @@ margin-top: 100px;
 }
 
 .container.main {
-    display: flex;
+    /* display: flex; */
 }
 
 .bio {
